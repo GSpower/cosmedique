@@ -1,7 +1,8 @@
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    color: rgba(0,0,0,0.87);
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 ::-moz-selection {
     background: #b3d4fc;
@@ -38,15 +39,10 @@ fieldset {
 .clearfix:after {
     clear: both;
 }
-
-
-
-
-/* media queries */
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+body, html{
+    height: 100%;
+    min-height: 100%;
 }
-
 
 
 
