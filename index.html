@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title></title>
+	<title>no title</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="manifest" href="site.webmanifest">
@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,400i,500,700i,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -60,8 +61,8 @@
 	<!-- header end -->
 	<!-- big image start -->
 	<section class="big-image">
-		<div class="container">
-			<div class="big-image__wrapper">
+		<div class="big-image__line">
+			<div class="container container--small">
 				<div class="big-image__text-container">
 					<h2 class="big-image__header">
 						Changing the DNA of Skin Care
@@ -73,15 +74,25 @@
 						Discover the perfect synergy of bioengineered ingredients inspired by Nobel Prize winning science. 
 					</p>
 				</div>
-				<img src="img/346d5-girl2.png" alt="">
 			</div>
 		</div>
+		<div class="container">
+			<div class="big-image__wrapper">
+				<img src="img/346d5-girl2.png" alt="">
+			</div>
+			<div class="big-image__wrapper--small">
+				<img src="img/01a23-box2.png" alt="">
+			</div>
+		</div>
+		
+		
 	</section>
 	<!-- big image end -->
+	<!-- news start -->
 	<section class="news">
 		<div class="container">
 			<div class="news-left-side">
-				<div class="news__item">
+				<div class="news__item clearfix">
 					<img class="news__item-img" src="img/img_injections.jpg" alt="">
 					<h2 class="news__item-heading">
 						Say goodbye to needles!
@@ -120,7 +131,7 @@
 	<!-- results start -->
 	<!-- results track start -->
 	<section class="results-banner">
-		<div class="container">
+		<div class="container container--results">
 			<h2 class="results-banner__heading">
 				THE RESULTS SPEAK FOR THEMSELVES
 			</h2>
@@ -169,39 +180,65 @@
 	<!-- resultss end -->
 	<!-- science section start -->
 	<section class="science-section">
+		<div class="container">
 		<div class="science-section__item science-section__item--img-rig">
 			<div class="science-section__text">
 				<h2 class="science-section__heading">
 						OBSESSIVELY ENGINEERED
 				</h2>
+				<img src="img/obsessively.jpg" alt="" class="science-section__item-img">
 				<p class="science-section__desc">
 					This ultra-concentrated <span class="text-bold">skin revitalizing formula</span>, bio-engineered with the most age defying ingredients such as: Caviar Extract, Retinol, Sodium Hyaluronate, Algae, Tocopherol Acetate, DMAE, Phytosphingosine and The Swiss Apple Extract. to FIGHT, CORRECT and PROTECT… Your Skin from A Lifetime Of Damage!
-				</p>
+				</p>	
 			</div>
+			<div class="science-section__item-bckg"></div>
 		</div>
 		<div class="science-section__item science-section__item--img-lef">
+			<div class="science-section__item-bckg"></div>
 			<div class="science-section__text">
 				<h2 class="science-section__heading">
 					RITUAL OF AGE DEFYING
 				</h2>
+				<img src="img/obsessively.jpg" alt="" class="science-section__item-img">
 				<p class="science-section__desc">
 					<span class="text-bold">Starting DAY 1</span>, You’ll experience dramatic improvements to the look and feel of your skin. Using this dermatologists recommended, non-surgical skin rejuvenating method you can expect:
 				</p>
 				<ul class="science-section__list">
-					<li class="science-section__list-item">Firm, smooth, and brighten skin.</li>
-					<li class="science-section__list-item">Regulate the production of lipids in the outer skin layers.</li>
-					<li class="science-section__list-item">Promoting natural moisturizing of the skin.</li>
-					<li class="science-section__list-item">Stimulate the multiplication of stem-cells in your skin.</li>
-					<li class="science-section__list-item">Stabilize minerals that aid in skin nourishment.</li>
+					<li class="science-section__list-item">
+						<span class="science-section__list-img">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-376 129 45 37.5" xml:space="preserve"> <g id="checkmark"> <g> <polygon points="-332.4,136.5 -359.4,163.7 -374.6,148.4 -376,149.8 -359.4,166.5 -331,137.9 "></polygon> </g> </g> </svg>
+						</span>
+						Firm, smooth, and brighten skin.</li>
+					<li class="science-section__list-item">
+						<span class="science-section__list-img">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-376 129 45 37.5" xml:space="preserve"> <g id="checkmark"> <g> <polygon points="-332.4,136.5 -359.4,163.7 -374.6,148.4 -376,149.8 -359.4,166.5 -331,137.9 "></polygon> </g> </g> </svg>
+						</span>
+						Regulate the production of lipids in the outer skin layers.</li>
+					<li class="science-section__list-item">
+						<span class="science-section__list-img">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-376 129 45 37.5" xml:space="preserve"> <g id="checkmark"> <g> <polygon points="-332.4,136.5 -359.4,163.7 -374.6,148.4 -376,149.8 -359.4,166.5 -331,137.9 "></polygon> </g> </g> </svg>
+						</span>
+						Promoting natural moisturizing of the skin.</li>
+					<li class="science-section__list-item">
+						<span class="science-section__list-img">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-376 129 45 37.5" xml:space="preserve"> <g id="checkmark"> <g> <polygon points="-332.4,136.5 -359.4,163.7 -374.6,148.4 -376,149.8 -359.4,166.5 -331,137.9 "></polygon> </g> </g> </svg>
+						</span>
+						Stimulate the multiplication of stem-cells in your skin.</li>
+					<li class="science-section__list-item">
+						<span class="science-section__list-img">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-376 129 45 37.5" xml:space="preserve"> <g id="checkmark"> <g> <polygon points="-332.4,136.5 -359.4,163.7 -374.6,148.4 -376,149.8 -359.4,166.5 -331,137.9 "></polygon> </g> </g> </svg>
+						</span>
+						Stabilize minerals that aid in skin nourishment.</li>
 				</ul>
 			</div>
+		</div>
 		</div>
 	</section>
 	<!-- science section end -->
 	<!-- how it works start -->
 	<section class="how-it-works">
-		<div class="container">
-			<div class="how-it-works__banner">
+		<div class="how-it-works__banner">
+			<div class="container">
 				<h2 class="how-it-works__heading">COSMEDIQUE’S UNIQUE <span class="text-bold">ALL-IN-ONE</span></h2>
 				<p class="how-it-works__desc">CLINCIAL STRENGTH FORMULA.</p>
 				<p class="how-it-works__text">
@@ -209,6 +246,7 @@
 				</p>
 			</div>
 		</div>
+		
 	</section>
 	<!-- how it works end -->
 	<!-- formula start -->
@@ -276,7 +314,7 @@
 			</div>
 		</div>
 		<!-- mobile version and table version -->
-		<div class="formula--resp">
+		<!-- <div class="formula--resp">
 			<img src="img/img_faceial_anti_aging_glance_xsmall.jpg" alt="">
 			<div class="formula__text">
 				<h2 class="formula__text-heading">
@@ -355,7 +393,7 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</section>
 	<!-- formula end -->
 	<!-- optimal path start -->
@@ -371,8 +409,10 @@
 			</div>
 		</div>
 		<div class="optimal-path__summary">
-			<div class="container">
-				<img src="img/cosmedique_spokeperson.jpg" alt="" class="optimal-path__summary-img">
+			<div class="container container--optimal-path">
+				<div class="optimal-path__summary-img">
+					<img src="img/cosmedique_spokeperson.jpg" alt="">
+				</div>
 				<div class="optimal-path__summary-text">
 					<h2 class="optimal-path__summary-header">
 						“After verifying consumer review data, researchers noted an incredible <span class="text-red">97% of subjects demonstrated...”</span>
@@ -395,80 +435,88 @@
 	</section>
 	<!-- optimal path end -->
 	<!-- how it works start -->
-	<section class="how-it-works">
-		<div class="how-it-works__banner">
+	<section class="how-it-works-main">
+		<div class="how-it-works-main__banner">
 			<div class="container">
-				<h2 class="how-it-works__banner-header">
+				<h2 class="how-it-works-main__banner-header">
 					<span class="text-red">COSMEDIQUE’S</span> LIFE-INFUSING SCIENCE SIGNATURE
 				</h2>
 			</div>
 		</div>
-		<div class="how-it-works__progress">
+		<div class="how-it-works-main__progress">
 			<div class="container">
-				<div class="how-it-works__text">
-					<h2 class="how-it-works__header">
+				<div class="how-it-works-main__para">
+					<h2 class="how-it-works-main__header">
 						Enhancing the skin’s natural renewal process. 
 					</h2>
-					<div class="how-it-works__desc">
+					<div class="how-it-works-main__desc">
 						Cosmedique is a complete formulation of many different skin healing ingredients, including hyaluronic acid, retinol, DMAE, Vitamins A, C and E, natural proteins, ceramide, and the key ingredient – a revolutionary new formula that stimulates stem cell multiplication. Each ingredient is molecularly engineered to be as small as possible, so it gets through to every layer of the skin. Here’s how we discovered it:
 					</div>
 				</div>
+			</div>
 				<!-- grid first -->
-				<div class="how-it-works__grid how-it-works__grid--first">
-					<div class="how-it-works__mo">
-						<img class="how-it-works__img" src="img/img_micros_1.jpg" alt="">
-						<div class="container">
-							<div class="how-it-works__text">
-								<p>Most of anti-aging products don’t deliver results when it comes to deep wrinkles because they only work on the top layer of skin.</p>
+			<div class="container">
+				<div class="how-it-works-main__grid how-it-works-main__grid--first">
+					<div class="how-it-works-main__mo">
+						<div class="how-it-works-main__mo-imgs">
+							<div class="how-it-works-main__img">
+								<img src="img/img_micros_1.jpg" alt="">
 							</div>
-						</div>
-					</div>
-					<div class="how-it-works__mo">
-						<img class="how-it-works__img" src="img/img_micros_1.jpg" alt="">
-						<div class="container">
-							<div class="how-it-works__text">
-								<p>Starting with restoring formation level of collagen. Filling up the spaces between the connective fibers collagen and elastin.</p>
+							<div class="how-it-works-main__img">
+								<img src="img/img_micros_1.jpg" alt="">
 							</div>
-						</div>
-					</div>
-					<div class="how-it-works__mo">
-						<img class="how-it-works__img" src="img/img_micros_1.jpg" alt="">
-						<div class="container">
-							<div class="how-it-works__text">
-								<p>Repaired damaged skin after regular, long term application of the cream. Wrinkles on your face seem smoother and less visible.</p>
+							<div class="how-it-works-main__img">
+								<img src="img/img_micros_1.jpg" alt="">
 							</div>
-						</div>
+						</div>		
 					</div>
 				</div>
+			</div>				
+			<div class="how-it-works-main__mo-txts">
+				<div class="container container--how-it-works">
+					<div class="how-it-works-main__text">
+						<p>Most of anti-aging products don’t deliver results when it comes to deep wrinkles because they only work on the top layer of skin.</p>
+					</div>
+					<div class="how-it-works-main__text">
+						<p>Starting with restoring formation level of collagen. Filling up the spaces between the connective fibers collagen and elastin.</p>
+					</div>
+					<div class="how-it-works-main__text">
+						<p>Repaired damaged skin after regular, long term application of the cream. Wrinkles on your face seem smoother and less visible.</p>
+					</div>
+				</div>
+			</div>
 				<!-- grid second -->
-				<div class="how-it-works__grid how-it-works__grid--second">
-					<div class="how-it-works__mo">
-						<div class="container">
-							<img class="how-it-works__img" src="img/img_faces_1.jpg" alt="">
+			<div class="how-it-works-main__grid how-it-works-main__grid--second">
+				<div class="how-it-works-main__mo">
+					<div class="how-it-works-main__mo-imgs">
+						<div class="container container--how-it-works">
+							<div class="how-it-works-main__img">
+								<img src="img/img_faces_1.jpg" alt="">
+							</div>
+							<div class="how-it-works-main__img">
+								<img src="img/img_faces_1.jpg" alt="">
+							</div>
+							<div class="how-it-works-main__img">
+								<img src="img/img_faces_1.jpg" alt="">
+							</div>
 						</div>
-						<div class="how-it-works__text">
+					</div>		
+				</div>
+			</div>
+			<div class="container">
+				<div class="how-it-works-main__mo-txts-second">
+					<div class="how-it-works-main__text">
+						<p>
+							We synthesize Hyaluronic Acid into Sodium Hyalurate, which is Hyaluronic Acid in salt form. From there we further engineer it to be as molecularly light and small as possible, and therefore able to penetrate deep into the skin past the epidermis layer down to the dermis. Along with Retinol, Vitamins and Ceramides reach deep into the dermal layer, making the skin appear significantly more youthful.</p>
+						</div>	
+						<div class="how-it-works-main__text">
 							<p>
 								Our Switzerland based R&D team found something phenomenal when they were working on another project. They developed a technique to deliver medication into the deeper layers of the skin topically. It was a research targeting post-surgical therapy after facial reconstruction and cosmetic procedures.</p>
 						</div>	
-					</div>
-					<div class="how-it-works__mo">
-						<div class="container">
-							<img class="how-it-works__img" src="img/img_faces_1.jpg" alt="">
-						</div>
-						<div class="how-it-works__text">
-							<p>
-								We synthesize Hyaluronic Acid into Sodium Hyalurate, which is Hyaluronic Acid in salt form. From there we further engineer it to be as molecularly light and small as possible, and therefore able to penetrate deep into the skin past the epidermis layer down to the dermis. Along with Retinol, Vitamins and Ceramides reach deep into the dermal layer, making the skin appear significantly more youthful.</p>
-						</div>	
-					</div>
-					<div class="how-it-works__mo">
-						<div class="container">
-							<img class="how-it-works__img" src="img/img_faces_1.jpg" alt="">
-						</div>
-						<div class="how-it-works__text">
-							<p>
-								All three layers of the skin are healed and rejuvenated, the dermal-epidermal junction is repaired, and the skin has recovered to its healthy cells count. The result is a more even color, smoother texture, and diminished liver spots, solar with the lentigines and blemishes. When combined revolutionary stem-cell multiplication formula, Retinol and Hyaluronic Acid even deep wrinkles don’t stand a chance.</p>
-						</div>	
-					</div>
+						<div class="how-it-works-main__text">
+						<p>
+							All three layers of the skin are healed and rejuvenated, the dermal-epidermal junction is repaired, and the skin has recovered to its healthy cells count. The result is a more even color, smoother texture, and diminished liver spots, solar with the lentigines and blemishes. When combined revolutionary stem-cell multiplication formula, Retinol and Hyaluronic Acid even deep wrinkles don’t stand a chance.</p>
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -476,25 +524,29 @@
 	<!-- how it works end -->
 	<!-- quality banner start -->
 	<section class="quality__banner">
-		<div class="container">
-			<div class="btn quality__banner-btn">
-				<span class="quality__banner-btn-header">
-					ORDER YOUR RISK FREE* 30 DAY TRIAL
-				</span>
-				<span class="quality__banner-btn-desc">
-					Offer Available to New Customers Only
-				</span>
+		<div class="quality__banner-wrapper">
+			<div class="container container--quality">
+				<div class="quality__banner-inner">
+					<div class="btn quality__banner-btn">
+						<span class="quality__banner-btn-header">
+							ORDER YOUR RISK FREE* 30 DAY TRIAL
+						</span>
+						<span class="quality__banner-btn-desc">
+							Offer Available to New Customers Only
+						</span>
+					</div>
+				</div>
+				<img class="quality__banner-img" src="img/cta_1_btn_background.png" alt="">
 			</div>
-			<img class="quality__banner-img" src="img/cta_1_btn_background.png" alt="">
-			<span class="quality__banner-small-text">
-				*Just cover shipping. Availability limited to one per household.
-			</span>
 		</div>
+		<span class="quality__banner-small-text">
+			*Just cover shipping. Availability limited to one per household.
+		</span>
 	</section>
 	<!-- quality banner end -->
 	<!-- derma recommend banner start -->
 	<section class="derma__banner">
-		<div class="container derma__bckg">
+		<div class="container container--derma">
 			<h1 class="derma__banner-header">
 				Top Dermatologists and Estheticians Recommend Cosmedique
 			</h1>
@@ -508,7 +560,9 @@
 	<section class="doctor">
 		<div class="container">
 			<div class="doctor__mo doctor__mo--left-img">
-				<img class="doctor__mo-img" src="img/cosmedique_dermotologist.jpg" alt="">
+				<div class="doctor__mo-img">
+					<img src="img/cosmedique_dermotologist.jpg" alt="">
+				</div>
 				<div class="doctor__mo-text">
 					<h2 class="doctor__mo-header">
 						DR. RENÉE MERCIER MD
@@ -519,7 +573,9 @@
 				</div>
 			</div>
 			<div class="doctor__mo doctor__mo--rig-img">
-				<img class="doctor__mo-img" src="img/cosmedique_esthetician.jpg" alt="">
+				<div class="doctor__mo-img">
+					<img src="img/cosmedique_esthetician.jpg" alt="">
+				</div>
 				<div class="doctor__mo-text">
 					<h2 class="doctor__mo-header">
 							KIMBELRY BOSH
@@ -548,32 +604,37 @@
 	<!-- doctor end -->
 	<!-- quality banner start -->
 	<section class="quality__banner">
-		<div class="container">
-			<div class="btn quality__banner-btn">
-				<span class="quality__banner-btn-header">
-					ORDER YOUR RISK FREE* 30 DAY TRIAL
-				</span>
-				<span class="quality__banner-btn-desc">
-					Offer Available to New Customers Only
-				</span>
+		<div class="quality__banner-wrapper">
+			<div class="container container--quality">
+				<div class="quality__banner-inner">
+					<div class="btn quality__banner-btn">
+						<span class="quality__banner-btn-header">
+							ORDER YOUR RISK FREE* 30 DAY TRIAL
+						</span>
+						<span class="quality__banner-btn-desc">
+							Offer Available to New Customers Only
+						</span>
+					</div>
+				</div>
+				<img class="quality__banner-img" src="img/cta_1_btn_background.png" alt="">
 			</div>
-			<img class="quality__banner-img" src="img/cta_1_btn_background.png" alt="">
-			<span class="quality__banner-small-text">
-				*Just cover shipping. Availability limited to one per household.
-			</span>
 		</div>
+		<span class="quality__banner-small-text">
+			*Just cover shipping. Availability limited to one per household.
+		</span>
 	</section>
 	<!-- quality banner end -->
 	<!-- media start -->
-	<section class="media">
-		<div class="container">
-			<div class="media__banner">
-				<div class="container">
-					<h2 class="media__banner-header">
-						What The Media Are Saying About Cosmedique's Ingredients
-					</h2>
-				</div>
+	<section class="media">	
+		<div class="media__banner">
+			<div class="container container--media">
+				<h2 class="media__banner-header">
+					What The Media Are Saying About Cosmedique's Ingredients
+				</h2>
 			</div>
+		</div>
+
+		<div class="container">
 			<div class="media__grid">
 				<div class="media__mo">
 					<img src="img/nb.png" alt="" class="media__mo-img">
@@ -793,7 +854,7 @@
 					<span class="footer--upper__right-socials">
 						<a href="#"><i class="fab fa-facebook-square"></i></a>
 						<a href="#"><i class="fab fa-twitter-square"></i></a>
-						<a href=""><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
 						<a href="#"><i class="fab fa-youtube-square"></i></a>
 					</span>
 					<div class="footer--upper__right-left-side">
@@ -832,7 +893,7 @@
 					In accordance with the FTC guide lines concerning use of endorsements and testimonials in advertising, please be aware of the following: Individual results may vary. Results are not guaranteed. Written, audio and video testimonials appearing on this site are received via email from real people. We have signed written release/consent forms signed by each individual appearing on this site. They have not been paid for. They are individual experiences, reflecting real life experiences of those who have used our products and/or services in some way or another. However, they are individual results and results do vary. We do not claim that they are typical results that consumers will generally achieve. The testimonials are not necessarily representative of all of those who will use our products and/or services. The testimonials displayed (text, audio and/or video) are given verbatim except for correction of grammatical or typing errors. Some have been shortened. In other words, not the whole message received by the testimonial writer is displayed, when it seemed lengthy or not the whole testimonial seemed relevant for the general public. Cosmedique LLC is not responsible for any of the opinions or comments posted to this website. Cosmedique LLC is not a forum for testimonials, however provides testimonials as a means for customers to share their experiences with one another. To prevent against abuse, all testimonials appear after they have been reviewed by management of Cosmedique LLC. Cosmedique LLC does not share the opinions, views or commentary of any testimonials on this site, and are strictly the views of the reviewer.
 				</p>
 				<p class="footer-discaimer__text">
-					All trademarks and copyrights are the property of their respective owners and are not affiliated with nor do they endorse Cosmedique LLC. By using this site you agree to follow the P<a href="">rivacy Policy</a> and all <a href="">Terms & Conditions</a> printed on this site. Void Where Prohibited By Law.
+					All trademarks and copyrights are the property of their respective owners and are not affiliated with nor do they endorse Cosmedique LLC. By using this site you agree to follow the <a href="#">Privacy Policy</a> and all <a href="#">Terms & Conditions</a> printed on this site. Void Where Prohibited By Law.
 				</p>
 			</div>
 			<div class="footer--lower">
@@ -853,6 +914,7 @@
 			</div>
 		</div>
 	</footer>
+	<!-- footer end -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
 	<script src="js/plugins.js"></script>
