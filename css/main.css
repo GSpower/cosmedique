@@ -58,6 +58,7 @@ body, html{
 	font-size: 30px;
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased;
+	width: 100%;
 }
 .visible-desk{
 	display: block !important;
@@ -138,8 +139,6 @@ body, html{
 	padding: 35px 5px 10px 5px;
 	display: inline-block;
 }
-
-
 .header-top__nav-list a{
 	color: white;
 	text-decoration: none;
@@ -167,7 +166,6 @@ body, html{
 }
 .big-image__wrapper--small{
 	position: absolute;
-	/* left: 296px; */
 	left: 0;
 	top: 461px;
 	width: 558px;
@@ -180,7 +178,6 @@ body, html{
 }
 .big-image__wrapper{
 	position: absolute;
-	/* left: 662px; */
 	right: -75px;
 	top: -1px;
 	width: 1006px;
@@ -198,14 +195,11 @@ body, html{
 	background-color: rgba(255, 255, 255, 0.4);
 	max-height: 365px;
 	min-height: 365px;
-	/* max-width: 2750px; */
-	/* min-width: 2750px; */
 	width: 100%;
 	position: absolute;
 	top: 47px;
 }
 .big-image__text-container{
-	/* float: left; */
 	min-width: 373px;
 	max-width: 373px;
 	font-size: 20px;
@@ -216,15 +210,12 @@ body, html{
 	color: rgba(81,81,81);
 	-webkit-font-smoothing: antialiased;
 }
-
-
 .big-image__header{
 	font-size: 36px;
 	line-height: 42px;
 	font-weight: 300;
 	color: rgba(73,73,73);
 	margin: 25px 0;
-	
 }
 .big-image__paragraph{
 	margin-bottom: 15px;
@@ -242,7 +233,6 @@ body, html{
 	max-width: 218px;
 	margin-right: 40px;
 	padding-left: 15px;
-
 }
 .news__item-img img{
 	width: 100%;
@@ -264,18 +254,22 @@ body, html{
 	-webkit-font-smoothing: antialiased;	
 }
 .news__full-width{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	background-color: #fafafa;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 .news__flags-container{
 	width: 50%;
 	display: inline-block;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .news__flags{
 	width: 25%;
-
 }
 .news__flags{
 	max-width: 150px;
@@ -299,7 +293,6 @@ body, html{
 }
 .news__post-services{
 	max-width: 450px;
-	
 }
 .news__post-services img{
 	width: 100%;
@@ -318,11 +311,11 @@ body, html{
 		url('../img/satisfaction_guarateed.png'),
 		url('../img/img_num1_seal.png'),
 		url('../img/devider_red_bg_center.png');
-		background-size: auto, auto, cover;
-		background-position: 6% center, 92% center, center top;
-		background-repeat: no-repeat;
-		color: white;
-		text-align: center;
+	background-size: auto, auto, cover;
+	background-position: 6% center, 92% center, center top;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
 }
 .results-banner__heading{
 	font-size: 44px;
@@ -353,9 +346,12 @@ body, html{
 	margin: 120px 0 50px 0;
 }
 .science-section__item{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .science-section__item--img-rig{
 	margin-bottom: 100px;
@@ -450,7 +446,6 @@ body, html{
 	top: 0;
 	left: 52%;
 	margin-left: -1100px;
-
 }
 .formula--desk-img img{
 	width: 100%;
@@ -471,7 +466,6 @@ body, html{
 	line-height: 18px;
 	color: #373c41;
 	-webkit-font-smoothing: antialiased;
-	
 }
 .formula__text-desc{
 	font-weight: 400;
@@ -480,7 +474,6 @@ body, html{
 	height: 85px;
 	max-width: 375px;
 	-webkit-font-smoothing: antialiased;
-	
 }
 /* optimal path */
 /* optimal path banner */
@@ -511,15 +504,20 @@ body, html{
 	max-width: 750px;
 	text-align: center;
 	font-size: 22px;
-	/* margin: 0 auto; */
 	margin: 1.46rem auto 1.168rem auto;
 	-webkit-font-smoothing: antialiased;	
 }
 /* optimal path summary */
 .container--optimal-path{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
 }
 .container--optimal-path img{
 	width: 100%;
@@ -593,12 +591,15 @@ body, html{
 	-webkit-font-smoothing: antialiased;
 }
 .how-it-works-main__mo-imgs{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .how-it-works-main__img{
 	margin-right: 9%;
-	/* max-width: 300px; */
 	width: 33%;
 }
 .how-it-works-main__img img{
@@ -613,6 +614,8 @@ body, html{
 	background-color: #efefef;
 }
 .container--how-it-works{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .how-it-works-main__text{
@@ -625,7 +628,6 @@ body, html{
 	line-height: 24px;
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
-	
 }
 .how-it-works-main__text:last-of-type{
 	margin-right: 0;
@@ -638,6 +640,8 @@ body, html{
 	background-color: #efefef;
 }
 .how-it-works-main__mo-txts-second{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .how-it-works-main__mo-txts-second .how-it-works-main__text{
@@ -682,9 +686,9 @@ body, html{
 	min-height: 100%;
 	height: 100%;
 	max-height: 180px;
-
 	left: 48.4%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
 }
 .quality__banner-img{
 	max-width: 1300px;
@@ -706,8 +710,8 @@ body, html{
 	background-color: #ffde59;
 	color: #395273;
 	border: 3px #ffd94e solid;
-	box-shadow: 0 2px 0 #e2c600, 0 6px 1px 0 #efefef;
-
+	-webkit-box-shadow: 0 2px 0 #e2c600, 0 6px 1px 0 #efefef;
+	        box-shadow: 0 2px 0 #e2c600, 0 6px 1px 0 #efefef;
 	cursor: pointer;
 }
 .quality__banner-btn:hover{
@@ -747,7 +751,6 @@ body, html{
 	-webkit-font-smoothing: antialiased;
 }
 .derma__banner-desc{
-	/* margin: 15px auto 30px auto; */
 	margin: 0 auto;
 	font-weight: 400;
 	text-align: center;
@@ -760,6 +763,8 @@ body, html{
 	margin-top: 50px;
 }
 .doctor__mo{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .doctor__mo-img{
@@ -795,8 +800,13 @@ body, html{
 	-webkit-font-smoothing: antialiased;
 }
 .doctor__mo--rig-img{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row-reverse;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
 }
 .doctor__mo--rig-img .doctor__mo-text{
 	background: #494e55 url('../img/cosmedique_esthetician_sig.png');
@@ -860,20 +870,29 @@ body, html{
 	text-transform: capitalize;
 }
 .media__grid{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 50px;
 }
 .media__mo{
 	width: 49%;
 	background-color: #f0f0f0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 25px;
 	min-height: 180px;
 	height: 100%;
 	padding: 25px 25px 25px 0;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .media__mo-text{
 	width: 67%;
@@ -937,8 +956,12 @@ body, html{
 }
 /* product and description */
 .container--desc{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .product-desc__img{
 	width: 33.333%;
@@ -950,7 +973,6 @@ body, html{
 }
 .product-desc__text{
 	width: 66.66666%;
-	/* padding: 0 15px; */
 	padding-left: 8%;
 	padding-right: 15px;
 }
@@ -986,6 +1008,8 @@ body, html{
 	min-height: 350px;
 }
 .footer--upper{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 50px;
 	padding-top: 50px;
@@ -1051,6 +1075,7 @@ body, html{
 	-webkit-font-smoothing: antialiased;	
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	-webkit-transition: color 0.2s linear 0s, background 0.2s linear 0s;
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
 .footer-links a:hover{
@@ -1072,6 +1097,7 @@ body, html{
 	font-weight: 500;
 	color: #a0a3a4;
 	margin-left: 10px;
+	-webkit-transition: color 0.1s linear 0s, background 0.2s linear 0s;
 	transition: color 0.1s linear 0s, background 0.2s linear 0s;
 }
 .footer--upper__right-socials a:hover{
@@ -1106,14 +1132,17 @@ body, html{
 	-webkit-font-smoothing: antialiased;	
 	line-height: 29px;
 }
+.phone a, .phone-int a{
+	color: #e7f7ff;		
+}
 .footer--upper__right-right-side .email{
 	margin-top: 10px;
 }
 .footer--upper__right-right-side .email__address a{
 	color: #e7f7ff;
+	-webkit-transition: color 0.2s linear 0s, background 0.2s linear 0s;
 	transition: color 0.2s linear 0s, background 0.2s linear 0s;
 	font-family: 'Open Sans', sans-serif;
-	
 }
 .footer--upper__right-right-side .email__address a:hover{
 	color: #f5f5f5;
@@ -1145,9 +1174,15 @@ body, html{
 	background-color: #b30001;
 }
 .container--footer-lower{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .footer--lower__left{
 	margin: 10px 0;
@@ -1183,7 +1218,9 @@ body, html{
 		height: 806px;
 	}
 	.container--optimal-path{
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.container--results{
 		background-size: 12%, 12%, cover;
@@ -1217,7 +1254,6 @@ body, html{
 	.container--derma{
 		background-size: auto, cover;
 		background-position: 3.5% center, center top;
-
 	}
 }
 @media only screen and (max-width: 1130px) {
@@ -1393,7 +1429,8 @@ body, html{
 		font-size: 16px;
 	}
 	.footer--upper{
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 	.footer--upper__left, .footer--upper__middle{
 		width: 50%;
@@ -1484,7 +1521,6 @@ body, html{
 	}
 	.doctor__mo-desc{
 		padding: 0 20px;
-		
 	}
 	.doctor__mo-header-question, .doctor__mo-header-answer, .doctor__mo-desc--small{
 		padding: 15px 20px 0 20px;
@@ -1514,12 +1550,19 @@ body, html{
 		max-height: 65vw;
 	}
 	.news__item{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		margin-bottom: 20px;
 	}
 	.news__item-heading{
-		order: -1;
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
 		text-align: center;
 		padding-bottom: 5px;
 	}
@@ -1542,9 +1585,16 @@ body, html{
 	}
 	.news__flags-container{
 		max-width: 450px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.news__flags{
 		width: 200px;
@@ -1577,7 +1627,9 @@ body, html{
 		background: none;
 	}
 	.container--results{
-		background: url('../img/img_num1_seal.png'), url('../img/devider_red_bg_center.png');
+		background: 
+			url('../img/img_num1_seal.png'), 
+			url('../img/devider_red_bg_center.png');
 		background-size: 18%, cover;
 		background-position: 97% center, center top;
 		background-repeat: no-repeat;
@@ -1594,7 +1646,10 @@ body, html{
 		max-width: 522px;	
 	}
 	.science-section__item--img-rig{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.science-section__heading{
 		display: none;
@@ -1612,14 +1667,21 @@ body, html{
 	}
 	.science-section__text{
 		width: 100%;
-		order: 2;
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
 	}
 	.science-section__item--img-rig .science-section__item-bckg{
-		order: 1;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
 		width: 100%;
 	}
 	.science-section__item.science-section__item--img-lef{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.science-section__item--img-lef .science-section__item-bckg{
 		width: 100%;
@@ -1683,6 +1745,8 @@ body, html{
     line-height: 20px;
 	}
 	.formula__text-desc-img{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		padding: 0 15px 0 20px;
 	}
@@ -1705,7 +1769,10 @@ body, html{
 		padding: 15px;
 	}
 	.container--optimal-path{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.optimal-path__summary-header--resp{
 		margin: 0;
@@ -1741,8 +1808,13 @@ body, html{
 		display: none;
 	}
 	.how-it-works-resp-main{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.how-it-works-main__img{
 		width: 100%;
@@ -1777,11 +1849,9 @@ body, html{
 	}
 	.doctor__mo-text{
 		width: 100%;
-
 	}
 	.doctor__mo-header{
 		padding: 0 40px 25px 40px;
-		
 	}
 	.doctor__mo-desc{
 		font-size: 18px;
@@ -1789,10 +1859,16 @@ body, html{
 		padding: 0 40px 25px 40px;
 	}
 	.doctor__mo--rig-img{
-		flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
 	}
 	.doctor__mo--left-img--resp{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.doctor__mo--left-img--resp .doctor__mo-img{
 		width: 100%;
@@ -1842,7 +1918,10 @@ body, html{
 		display: block !important;
 	}
 	.footer--upper{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.footer--upper__logo{
 		margin: 0 auto;
@@ -1865,7 +1944,6 @@ body, html{
 	.big-image__text-container{
 		max-width: 43vw;
 		min-width: 43vw;
-
 		font-size: 2.5vw;
 		line-height: 2.5vw;
 		padding-left: 3vw;
@@ -1890,7 +1968,10 @@ body, html{
 		height: auto;
 	}
 	.doctor__mo{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.doctor__mo-header{
 		padding-bottom: 0;
@@ -2094,7 +2175,10 @@ body, html{
 		line-height: 30px;
 	}
 	.container--footer-lower{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.footer--lower__left-copyright, .footer--lower__right-link{
 		font-size: 2.8vw;
