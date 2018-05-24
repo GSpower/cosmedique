@@ -50,6 +50,9 @@ body, html{
 .text-red{
 	color: #AD0001;
 }
+.text-link{
+	color: #333;
+}
 .gray-hr{
 	color: #5f5f5f;
 	font-size: 30px;
@@ -80,7 +83,21 @@ body, html{
 .container--formula-small{
 	display: none;
 }
-
+.optimal-path__summary-header--resp{
+	display: none;
+}
+.optimal-path__summary--resp{
+	display: none;
+}
+.how-it-works-resp-main{
+	display: none;
+}
+.securty-banner__img--resp{
+	display: none !important;
+}
+.doctor__mo-img--phone{
+	display: none !important;
+}
 /* header */
 .container{
 	width: 100%;
@@ -117,7 +134,7 @@ body, html{
 }
 .header-top__nav-list li{
 	font-size: 16px;
-	margin: 0px 42px 0px 0px;
+	margin: 0 42px 0 0;
 	padding: 35px 5px 10px 5px;
 	display: inline-block;
 }
@@ -333,7 +350,7 @@ body, html{
 }
 /* science */
 .science-section{
-	margin: 120px 0px 50px 0px;
+	margin: 120px 0 50px 0;
 }
 .science-section__item{
 	display: flex;
@@ -541,14 +558,14 @@ body, html{
 	margin-bottom: 50px;
 }
 .how-it-works-main__banner{
-	padding: 30px 0px 20px 0px;
+	padding: 30px 0 20px 0;
 	background-color: #f5f5f5;
 }
 .how-it-works-main__banner-header{
 	max-width: 850px;
 	font-weight: 200;
 	font-size: 60px;
-	padding: 10px 0px 15px 0px;
+	padding: 10px 0 15px 0;
 	color: #373c41;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
@@ -689,7 +706,7 @@ body, html{
 	background-color: #ffde59;
 	color: #395273;
 	border: 3px #ffd94e solid;
-	box-shadow: 0 2px 0 #e2c600, 0 6px 1px 0px #efefef;
+	box-shadow: 0 2px 0 #e2c600, 0 6px 1px 0 #efefef;
 
 	cursor: pointer;
 }
@@ -795,7 +812,7 @@ body, html{
 	font-size: 42px;
 	line-height: 50px;
 	font-weight: 200;
-	padding: 75px 60px 0px 60px;
+	padding: 75px 60px 0 60px;
 	color: #373c41;
 	-webkit-font-smoothing: antialiased;
 }
@@ -803,7 +820,7 @@ body, html{
 	font-size: 42px;
 	line-height: 50px;
 	font-weight: 600;
-	padding: 10px 60px 0px 60px;
+	padding: 10px 60px 0 60px;
 	color: #373c41;
 	margin: 1.46rem 0 1.168rem 0;
 }
@@ -811,7 +828,7 @@ body, html{
 	font-size: 22px;
 	line-height: 30px;
 	font-weight: 300;
-	padding: 0px 60px 0px 60px;
+	padding: 0 60px 0 60px;
 	color: #333;
 }
 /* media */
@@ -874,7 +891,7 @@ body, html{
 .media__mo-header{
 	font-size: 20px;
 	font-weight: 600;
-	margin: 15px 0px 0px 15px;
+	margin: 15px 0 0 15px;
 	color: #373c41;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
@@ -1173,7 +1190,7 @@ body, html{
 		background-position: 1% center, 98% center, center top;
 	}
 	.news__flags-desc{
-		padding: 0px 0px 0px 10px;
+		padding: 0 0 0 10px;
 		font-size: 16px;
 		line-height: 20px;
 	}
@@ -1194,7 +1211,7 @@ body, html{
 		margin-left: 67.666667%;
 	}
 	.how-it-works__heading{
-		padding: 0px 0px 5px 0px;
+		padding: 0 0 5px 0;
 		font-size: 54px;
 	}
 	.container--derma{
@@ -1230,7 +1247,7 @@ body, html{
 	.derma__banner-header{
 		font-size: 38px;
 		line-height: 42px;
-		padding: 25px 0px 0px 0px;
+		padding: 25px 0 0 0;
 	}
 	.media__mo-text{
 		padding-left: 0;
@@ -1256,7 +1273,7 @@ body, html{
 	.news__item-heading{
 		font-size: 26px;
 		line-height: 32px;
-		padding: 0px 15px 0px 0px;
+		padding: 0 15px 0 0;
 	}
 	.news__item-para{
 		font-size: 18px;
@@ -1302,7 +1319,7 @@ body, html{
 		font-size: 50px;
 	}
 	.how-it-works-main__banner{
-		padding: 10px 0px 20px 0px;
+		padding: 10px 0 20px 0;
 	}
 	.how-it-works-main__para{
 		margin: 40px 0;
@@ -1324,7 +1341,7 @@ body, html{
 		background-position: 3.5% center, center top;
 	}
 	.derma__banner-header{
-		padding: 36px 0px;
+		padding: 36px 0;
 		font-size: 35px;
 		line-height: 36px;
 	}
@@ -1339,21 +1356,21 @@ body, html{
 		font-size: 28px;
 		line-height: 34px;
 		font-weight: 200;
-		margin: 0px 0px 10px 0px;
-		padding: 35px 40px 0px 40px;
+		margin: 0 0 10px 0;
+		padding: 35px 40px 0 40px;
 	}
 	.doctor__mo-header-answer{
 		font-size: 32px;
 		line-height: 50px;
 		font-weight: 600;
-		margin: 0px 0px 10px 0px;
-		padding: 0px 40px 0px 40px;
+		margin: 0 0 10px 0;
+		padding: 0 40px 0 40px;
 	}
 	.doctor__mo-desc--small{
 		font-size: 16px;
 		line-height: 20px;
 		font-weight: 300;
-		padding: 0px 40px 0px 40px;
+		padding: 0 40px 0 40px;
 	}
 	.big-image__text-container{
 		padding-left: 50px;
@@ -1470,7 +1487,7 @@ body, html{
 		
 	}
 	.doctor__mo-header-question, .doctor__mo-header-answer, .doctor__mo-desc--small{
-		padding: 15px 20px 0px 20px;
+		padding: 15px 20px 0 20px;
 		margin-bottom: 0;
 	}
 	.doctor__mo-header-answer{
@@ -1493,8 +1510,8 @@ body, html{
 		line-height: 24px;
 	}
 	.big-image{
-		height: 480px;
-		max-height: 480px;
+		height: 65vw;
+		max-height: 65vw;
 	}
 	.news__item{
 		display: flex;
@@ -1573,7 +1590,8 @@ body, html{
 		text-align: left;
 		margin: 0;
 		padding-left: 5px;
-		padding-top: 5px;		
+		padding-top: 5px;	
+		max-width: 522px;	
 	}
 	.science-section__item--img-rig{
 		flex-direction: column;
@@ -1627,26 +1645,482 @@ body, html{
 	}
 	.container--formula-small{
 		display: block;
+		clear: both;
+		padding: 0 15px 0 20px;
+		margin-bottom: 25px;
 	}
 	.formula__text-heading{
     display: block;
     font-weight: 500;
     text-transform: uppercase;
-    margin: 0px 0px 15px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 0;
     font-size: 18px;
     line-height: 20px;
 	}
 	.formula__rounded-img{
-		min-width: 80px;
+		min-width: 100px;
     max-width: 100px;
-    margin: 0px 15px 0 0;
-    padding: 0px;
+    margin: 0 15px 0 0;
+    padding: 0;
     overflow: hidden;
 	}
 	.formula__rounded-img img{
 		width: 100%;
 		max-width: 100%;
 		height: auto;
+	}
+	.formula--desk .formula__text{
+		padding-top: 25px;
+	}
+	.formula__text-heading{
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 0;
+    font-size: 18px;
+    line-height: 20px;
+	}
+	.formula__text-desc-img{
+		display: flex;
+		padding: 0 15px 0 20px;
+	}
+	.formula__text-desc{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+		-webkit-font-smoothing: antialiased;
+		color: #333;
+		max-width: none;
+	}
+	.optimal-path__summary-text{
+		display: none;
+	}
+	.optimal-path__summary-header--resp{
+		display: block;
+	}
+	.optimal-path__summary--resp{
+		display: block;
+		padding: 15px;
+	}
+	.container--optimal-path{
+		flex-direction: column;
+	}
+	.optimal-path__summary-header--resp{
+		margin: 0;
+    padding: 25px 10px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+	}
+	.optimal-path__summary-img{
+		width: 100%;
+	}
+	.optimal-path__summary-desc{
+		padding: 15px 20px 0 20px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 25px;
+	}
+	.optimal-path{
+		border: none;
+	}
+	.how-it-works-main{
+		border-top: 17px solid #dcdcdc;
+	}
+	.how-it-works-main__para{
+		padding: 0 20px;
+		font-size: 18px;
+	}
+	.how-it-works-main__header{
+		padding-bottom: 25px;
+	}
+	.grid--resp{
+		display: none;
+	}
+	.how-it-works-resp-main{
+		display: flex;
+		flex-direction: column;
+	}
+	.how-it-works-main__img{
+		width: 100%;
+	}
+	.how-it-works-main__text{
+		width: 100%;
+		color: white;
+	}
+	.how-it-works-main__mo-txts-second .how-it-works-main__text{
+		padding: 15px;
+	}
+	.quality__banner{
+		display: none;
+	}
+	.derma__banner-header{
+		font-size: 31px;
+		text-align: left;
+		margin-left: 25%;
+	}
+	.doctor{
+		margin-bottom: 50px;
+	}
+	.doctor__mo-img{
+		width: 200px;
+		height: 500px;
+		background: url('../img/cosmedique_dermotologist_s.jpg');
+		background-position: top center;
+		background-size: cover;
+	}
+	.doctor__mo-img img{
+		display: none;
+	}
+	.doctor__mo-text{
+		width: 100%;
+
+	}
+	.doctor__mo-header{
+		padding: 0 40px 25px 40px;
+		
+	}
+	.doctor__mo-desc{
+		font-size: 18px;
+		line-height: 24px;
+		padding: 0 40px 25px 40px;
+	}
+	.doctor__mo--rig-img{
+		flex-direction: row;
+	}
+	.doctor__mo--left-img--resp{
+		flex-direction: column;
+	}
+	.doctor__mo--left-img--resp .doctor__mo-img{
+		width: 100%;
+		background: none;
+		height: auto;
+	}
+	.doctor__mo--left-img--resp .doctor__mo-img img{
+		display: block;
+	}
+	.doctor__mo-header-question{
+		font-size: 42px;
+    line-height: 50px;
+    font-weight: 200;
+    padding: 75px 60px 0 60px;
+	}
+	.doctor__mo-header-answer{
+		font-size: 42px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 10px 60px 0 60px;
+	}
+	.doctor__mo-desc--small{
+		font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 25px 60px 0 60px;
+	}
+	.media__banner-header{
+		color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 37px;
+    line-height: 42px;
+	}
+	.media__mo{
+		width: 100%;
+		margin: 0 15px 25px 15px;
+	}
+	.product-desc{
+		display: none;
+	}
+	.securty-banner__img{
+		display: none !important;
+	}
+	.securty-banner__img--resp{
+		display: block !important;
+	}
+	.footer--upper{
+		flex-direction: column;
+	}
+	.footer--upper__logo{
+		margin: 0 auto;
+	}
+	.footer--upper__left, .footer--upper__middle{
+		width: 100%;
+	}
+	.footer--upper__right-right-side, .footer--upper__right-left-side{
+		width: 100%;
+		float: none;
+	}
+	.footer--upper__left{
+		padding: 0 15px;
+	}
+	.footer--upper__left, .footer--upper__middle, .footer--upper__right{
+		margin-bottom: 25px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.big-image__text-container{
+		max-width: 43vw;
+		min-width: 43vw;
+
+		font-size: 2.5vw;
+		line-height: 2.5vw;
+		padding-left: 3vw;
+		max-height: auto;
+		min-height: auto;
+	}
+	.big-image__paragraph{
+		margin-bottom: 1.5vw;
+	}
+	.big-image__header{
+		font-size: 5vw;
+		line-height: 5vw;
+	}
+}
+@media only screen and (max-width: 600px){
+	.doctor__mo-img--phone{
+		display: block !important;
+	}
+	.doctor__mo-img{
+		background: none;
+		width: 100%;
+		height: auto;
+	}
+	.doctor__mo{
+		flex-direction: column;
+	}
+	.doctor__mo-header{
+		padding-bottom: 0;
+	}
+	.doctor__mo-desc{
+		padding-bottom: 85px;
+	}
+	.doctor__mo-text{
+		background-size: 20%;
+	}
+	.footer--lower__left-copyright, .footer--lower__right-link{
+		font-size: 1.8vw;
+	}
+	.how-it-works__heading{
+		font-size: 30px;
+	}
+	.how-it-works__text{
+		font-size: 22px;
+	}
+	.how-it-works__banner{
+		padding: 15px;
+	}
+	.how-it-works__desc{
+		font-size: 30px;
+	}
+	.optimal-path__banner-header{
+		font-size: 38px;
+	}
+	.optimal-path__banner-desc{
+		font-size: 17px;
+	}
+	.optimal-path__banner{
+		padding: 10px;
+		margin-bottom: 0;
+	}
+	.optimal-path__summary-header--resp{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.how-it-works-main__banner{
+		padding-bottom: 10px;	
+	}
+	.how-it-works-main__banner-header{
+		font-size: 34px;
+    line-height: 44px;
+    font-weight: 200;
+    padding: 0 0 15px 0;
+	}
+	.doctor__mo-header-question{
+		font-size: 28px;
+    line-height: 34px;
+    font-weight: 200;
+    margin: 0 0 10px 0;
+    padding: 35px 20px 0 20px;
+	}
+	.doctor__mo-header-answer{
+		font-size: 32px;
+    line-height: 50px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    padding: 0 20px 0 20px;
+	}
+	.doctor__mo-desc--small{
+		font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    padding: 0 20px 0 20px;
+	}
+	.media__banner-header{
+		margin: 0;
+    font-size: 28px;
+		line-height: 30px;
+		padding: 20px 5px;
+	}
+	.media__mo-header{
+		font-size: 17px;
+	}
+	.media__mo-desc{
+		font-size: 14px;
+	}
+	.quality-and-satis__banner-header{
+		font-size: 32px;
+		line-height: 37px;
+	}
+	.quality-and-satis__banner{
+		padding: 20px 15px;
+	}
+	.news__item-heading{
+		padding-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.container--results{
+		background: none;
+	}
+	.results-banner__heading{
+		text-align: center;
+		font-size: 30px;
+	}
+	.results-banner__desc{
+		margin: 0 auto;
+    padding: 15px 10px 30px 10px;
+    font-weight: 400;
+    font-size: 17px;
+    max-width: 90%;
+    text-align: center;
+	}
+	.how-it-works__text{
+		width: 90%;
+    margin: 0 auto;
+    font-weight: 300;
+    padding: 0 0 0 0;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+	}
+	.how-it-works__heading{
+		padding-bottom: 0;
+	}
+	.optimal-path__banner-desc{
+		line-height: 24px;
+	}
+	.optimal-path__summary-desc{
+		margin-bottom: 10px;
+	}
+	.quality__banner-btn{
+		width: 85%;
+	}
+}
+@media only screen and (max-width: 450px){
+	.news__flags-container{
+		max-width: 550px;
+		width: 80%;
+	}
+	.science-section__heading--tab{
+		font-size: 7vw;
+		text-align: center;
+	}
+	.quality__banner-btn{
+		font-size: 15px;
+	}
+	.quality__banner-btn-desc{
+		font-size: 12px;
+	}
+	.big-image__wrapper{
+		display: none;
+	}
+	.big-image__wrapper--small{
+		display: block !important;
+		top: 75vw;
+		width: 80vw;
+		height: auto;
+		position: relative;
+		margin: 0 auto;
+	}
+	.big-image{
+		height: 135vw;
+		max-height: 135vw;
+	}
+	.big-image__text-container{
+		width: 80%;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 auto;
+	}
+	.big-image__header{
+		font-size: 38px;
+    line-height: 38px;
+	}
+	.derma__banner-header{
+		font-size: 6vw;
+		line-height: 6vw;
+	}
+	.doctor__mo-desc{
+		padding-bottom: 105px;
+	}
+	.big-image__line{
+		top: 5vw;
+	}
+	.science-section__desc{
+		font-size: 18px;
+	}
+	.formula__text-desc-img{
+		padding: 0;
+	}
+	.container--derma{
+		background-size: 20%, cover;
+	}
+	.big-image__paragraph{
+		margin-bottom: 4.5vw;
+	}
+}
+@media only screen and (max-width: 380px){
+	.big-image__text-container{
+		width: 95%;
+		max-width: 95%;
+	}
+	.big-image__header{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.container--footer-lower{
+		flex-direction: column;
+	}
+	.footer--lower__left-copyright, .footer--lower__right-link{
+		font-size: 2.8vw;
+	}
+	.footer--lower__left, .footer--lower__right{
+		margin-bottom: 5px;
+	}
+	.quality-and-satis__banner-header{
+		font-size: 28px;
+		line-height: 28px;
+	}
+	.formula--desk .formula__text{
+		padding-top: 45px;
+	}
+	.formula__text-desc{
+		height: 110px;
+	}
+	.optimal-path__summary-desc{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.doctor__mo-desc{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.quality__banner-small-text{
+		font-size: 11px;
 	}
 }
