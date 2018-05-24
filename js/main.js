@@ -29,9 +29,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   var burgerMenu = $('.header-top__nav');
   var burgerMenuBtn = $('.responsive-menu__btn');
-  
   burgerMenuBtn.on('click', function () {
     burgerMenu.slideToggle('header-top__nav-list--active');
   })
-
 });

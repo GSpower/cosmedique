@@ -59,6 +59,7 @@ body, html{
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased;
 	width: 100%;
+	clear: both;
 }
 .visible-desk{
 	display: block !important;
