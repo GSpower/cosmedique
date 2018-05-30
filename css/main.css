@@ -1208,6 +1208,205 @@ body, html{
 .footer--lower__right-link:last-of-type::after{
 	content: none;
 }
+/* special offer popup */
+.special-offer-popup__wrap{
+	background: rgba(33,33,33,0.7);
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2000;
+	display: none;
+}
+.triangle{
+	width: 0; 
+	height: 0;
+	position: absolute; 
+}
+/* tl,tr,bl,br = top left, top right, bottom left, bottom right */
+.triangle--tl{
+	border-top: 25px solid transparent;
+	border-left: 25px solid transparent;
+	border-bottom: 25px solid white; 
+	border-right: 25px solid white;
+
+	top: 2rem;
+	left: 3rem;
+}
+.triangle--tr{
+	border-top: 12px solid transparent;
+	border-left: 12px solid transparent;
+	border-bottom: 12px solid white; 
+	border-right:12px solid white;
+
+	top: 2rem;
+	right: 6rem
+}
+.triangle--bl{
+	border-top: 20px solid white;
+	border-left: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right:20px solid white;
+
+	left: 3.5rem;
+	bottom: 3.5rem;
+}
+.triangle--br{
+	border-top: 30px solid white;
+	border-left: 30px solid white;	
+	border-bottom: 30px solid transparent; 
+	border-right:30px solid transparent;
+
+	right: 3.5rem;
+	bottom: 3.5rem;
+}
+
+.special-offer-popup{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+	background-image: url('../img/qyksonic-zoe-special-offer-bg-pattern.jpg');
+	background-repeat: repeat;
+	/* background-size: cover; */
+	width: 700px;
+	max-width: 80%;
+	min-height: 400px;
+	max-height: 90%;
+	text-align: center;
+}
+/* special offer text */
+.special-offer-text{
+	text-align: center;
+	margin-top: 5rem;
+}
+.special-offer-text__top-text{
+	color: white;
+	display: block;
+	line-height: 100%;
+}
+.special-offer-text__price-off{
+	font-size: 2.2rem;
+	color: white;
+	letter-spacing: 5px;
+	display: block;
+	line-height: 135%;
+	font-weight: 700; 
+}
+
+.special-offer-text__price-holder{
+	display: block;
+	font-size: 4rem;
+	line-height: 100%;    
+}
+.special-offer-text__price-with-no-off{
+	color: #fff;
+	text-decoration: line-through;
+	-webkit-text-decoration-color: #fdfe4a;
+					text-decoration-color: #fdfe4a;
+	font-size: 2.2rem;
+	letter-spacing: 5px;
+	display: block;
+	line-height: 135%;
+	font-weight: 700;
+}
+.special-offer-text__see-price{
+	color: #fdfe4a;
+	font-size: 2.2rem;
+	letter-spacing: 5px;
+	background-color: #212121;
+	line-height: 135%;
+	padding: 0 10px;
+	font-weight: 700;
+}
+.special-offer-text__free-ship{
+	margin-top: 9px;
+	color: #fdfe4a;
+	font-size: 1rem;
+	display: block;
+	letter-spacing: 5px;
+	line-height: 100%;
+	font-weight: 400;
+}
+.special-offer-text__limit-one{
+	color: white;
+	display: block;
+	font-size: 1rem;
+	letter-spacing: 5px;
+}
+.special-offer-text__fill-inputs{
+	color: #fdfe4a;
+	font-size: 1.2rem;
+}
+.offering-form__msg--bl{
+	color: #212121;
+	background: #fdfe4a;
+	padding: 10px;
+	display: inline-block;
+	line-height: initial;
+	font-size: 20px;
+}
+#popup-email-address, #popup-phone-number{
+	width: 400px;
+	max-width: 80%;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	color: black;
+	background-color: white;
+	font-size: 20px;
+	padding: 15px 30px;
+	-webkit-box-sizing: border-box;
+					box-sizing: border-box;
+}
+#popup-phone-number{
+	display: none;
+}
+#popup-email-address{
+	margin-top: 10px;
+}
+#popup-email-address::-webkit-input-placeholder{
+	color: #999999;
+}
+#popup-email-address:-ms-input-placeholder{
+	color: #999999;
+}
+#popup-email-address::placeholder{
+	color: #999999;
+}
+#popup-phone-number::-webkit-input-placeholder{
+	color: #999999;
+}
+#popup-phone-number:-ms-input-placeholder{
+	color: #999999;
+}
+#popup-phone-number::placeholder{
+	color: #999999;
+}
+#popup-btn{
+	display: block;
+	width: 150px;
+	max-width: 50%;
+	margin: 30px auto;
+	border: 4px solid white;
+	border-radius: 40px;
+	color: white;
+	background-color: transparent;
+	font-size: 20px;
+	padding: 15px;
+	outline: none;
+}
+.special-offer-popup__close-btn{
+	position: fixed;
+	top: 1%;
+	right: 2%;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+}
 /* desktop finish */
 /* 1200- */
 @media only screen and (max-width: 1200px){
@@ -1447,6 +1646,42 @@ body, html{
 	}
 }
 @media only screen and (max-width: 900px) {
+	.triangle--tl{
+		border-top: 3vw solid transparent;
+		border-left: 3vw solid transparent;
+		border-bottom: 3vw solid white; 
+		border-right: 3vw solid white;
+		
+		top: 4vw;
+		left: 6vw;
+	}
+	.triangle--tr{
+			border-top: 1.5vw solid transparent;
+			border-left: 1.5vw solid transparent;
+			border-bottom: 1.5vw solid white; 
+			border-right: 1.5vw solid white;
+
+			top: 4vw;
+			right: 8vw;
+	}
+	.triangle--bl{
+			border-top: 2.4vw solid white;
+			border-left: 2.4vw solid transparent;
+			border-bottom: 2.4vw solid transparent; 
+			border-right:2.4vw solid white;
+
+			left: 7vw;
+			bottom: 7vw;
+	}
+	.triangle--br{
+			border-top: 3.4vw solid white;
+			border-left: 3.4vw solid white;	
+			border-bottom: 3.4vw solid transparent; 
+			border-right:3.4vw solid transparent;
+
+			right: 7vw;
+			bottom: 7vw;
+	}
 	.header-top__nav{
 		display: none;
 		width: 100%;
@@ -1464,7 +1699,7 @@ body, html{
 		width: 100%;
 	}
 	.header-top__logo-wrapper{
-		margin: 0 auto;
+		margin: 15px auto;
 	}
 	.responsive-menu__btn{
 		display: inline-block;
@@ -1963,6 +2198,89 @@ body, html{
 	}
 }
 @media only screen and (max-width: 600px){
+	.triangle--tl{
+		border-top: 4vw solid transparent;
+		border-left: 4vw solid transparent;
+		border-bottom: 4vw solid white; 
+		border-right: 4vw solid white;
+
+		top: 4vw;
+		left: 6vw;
+	}
+	.triangle--tr{
+			border-top: 2.5vw solid transparent;
+			border-left: 2.5vw solid transparent;
+			border-bottom: 2.5vw solid white; 
+			border-right:2.5vw solid white;
+
+			top: 4vw;
+			right: 8vw;
+	}
+	.triangle--bl{
+			border-top: 3.4vw solid white;
+			border-left: 3.4vw solid transparent;
+			border-bottom: 3.4vw solid transparent; 
+			border-right:3.4vw solid white;
+
+			left: 7vw;
+			bottom: 7vw;
+	}
+	.triangle--br{
+			border-top: 3vw solid white;
+			border-left: 3vw solid white;	
+			border-bottom: 3vw solid transparent; 
+			border-right:	3vw solid transparent;
+
+			right: 3.5vw;
+			bottom: 3.5vw;
+	}
+	.special-offer-text{
+			margin-top: 13vw;
+	}
+	.special-offer-text__top-text{
+			font-size: 4vw;
+	}
+	.special-offer-text__price-off{
+			font-size: 12vw;
+			line-height: 130%;    
+	}
+	.special-offer-text__price-holder{
+			font-size: 13vw;
+	}
+	.special-offer-text__free-ship{
+			font-size: 3vw;
+			line-height: initial;
+	}
+	.special-offer-text__limit-one{
+			font-size: 3vw;
+			line-height: initial;
+	}
+	.special-offer-text__fill-inputs{
+			font-size: 3vw;
+			line-height: initial;
+	}
+	.offering-form__msg--bl{
+			font-size: 3vw;
+			line-height: initial;
+			color: #212121;
+			background: #fdfe4a;
+			padding: 5px;
+			display: inline-block;    
+	}
+	#popup-email-address{
+			margin-top: 3vw;
+	}
+	#popup-phone-number{
+			margin-top: 15px;
+	}
+	#popup-email-address, #popup-phone-number{
+			font-size: 10px;
+			padding: 3vw 4vw;
+	}
+	#popup-btn{
+			font-size: 15px;
+			padding: 10px;
+	}
 	.doctor__mo-img--phone{
 		display: block !important;
 	}
